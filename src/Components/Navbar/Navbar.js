@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../Images/Logo.svg";
 import Button from "@mui/material/Button";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { useNavigate } from "react-router-dom";
@@ -26,7 +25,7 @@ const Navbar = () => {
   return (
     <div className="nav-container">
       <Button onClick={handleLogoClick}>
-        <img src={logo} alt="Nxtwave Logo" className="logo-nxtwave" />
+        <img src="https://images.g2crowd.com/uploads/product/image/small_square/small_square_a0162c5ca3a4458404cbee601123732a/nxtwave-nxtwave.png" alt="Nxtwave Logo" className="logo-nxtwave" />
       </Button>
       <div>
         <Button

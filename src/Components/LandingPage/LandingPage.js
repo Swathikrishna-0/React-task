@@ -23,23 +23,38 @@ const LandingPage = () => {
   return (
     <>
       <div className="landing">
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          aria-label="icon label tabs example"
-          sx={{margin:"20px"}}
+        <div
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
         >
-          <Tab label="Resources" />
-          <Tab label="Requests" />
-          <Tab label="Users" />
-        </Tabs>
+          <Tabs
+            value={value}
+            onChange={handleChange}
+            aria-label="icon label tabs example"
+            sx={{
+              margin: "20px",
+            }}
+          >
+            <Tab label="Resources" />
+            <Tab label="Requests" />
+            <Tab label="Users" />
+          </Tabs>
+        </div>
+
         <TextField
           placeholder="Search"
           value={searchTerm}
           onChange={handleSearchChange}
-          sx={{margin:"20px",width:"500px"}}
+          sx={{ margin: "20px", width: "70%" }}
         />
-        <Cards filterTag={filterTag} searchTerm={searchTerm} className="card-cont"/>
+        <Cards
+          filterTag={filterTag}
+          searchTerm={searchTerm}
+          className="card-cont"
+        />
       </div>
     </>
   );

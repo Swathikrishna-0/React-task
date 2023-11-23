@@ -16,7 +16,6 @@ import {
 import "./CreateItem.css";
 import { alpha, styled } from "@mui/material/styles";
 import { toast } from "react-toastify";
-import image from "../../Images/image.svg";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
@@ -176,9 +175,10 @@ const CreateItem = () => {
 
   const ImageContainer = styled(Grid)({
     flex: 0.5,
-    backgroundImage: `url(${image})`,
+    backgroundImage: `url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRdivsaa8ZkebQdc3JqlHXX3qcW6ZOVntv92WYms1wn8yDKQA6")`,
     backgroundSize: "cover",
-    backgroundPosition: "center",
+    width: "cover",
+    height: "100vh",
   });
 
   return (
