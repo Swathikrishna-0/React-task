@@ -1,0 +1,20 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 72px;
+  width: 100%;
+  border-bottom: 1px solid #d7dfe9;
+  background-color: white !important;
+  padding-top: 16px;
+}
+.logo-nxtwave {
+  width: 82px;
+  height: 40px;
+  margin-left: 48px;
+}
+.button {
+  background-color: #2dca73 !important;
+  color: white !important;
+}
+

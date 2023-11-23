@@ -1,0 +1,49 @@
+.top-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+.card-main{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  margin-left: 10px;
+}
+.title {
+  font-size: 16px;
+  font-family: "Roboto";
+  line-height: 24px;
+}
+.category {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: #7e858e;
+  line-height: 24px;
+}
+.link {
+  font-size: 14px;
+  color: #0b69ff;
+  text-decoration: none;
+  font-family: "Roboto";
+  line-height: 24px;
+  margin-left: 24px;
+}
+.descp{
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 24px;
+    color: #7E858E;
+    margin-left: 24px;
+}
+.Cardss{
+    border: 1px solid #D7DFE9 !important;
+    box-shadow: none !important;
+}

@@ -1,0 +1,10 @@
+.landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-cont{
+  margin-left: 300px;
+  padding-left: 300px;
+}
